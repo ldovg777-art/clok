@@ -114,6 +114,11 @@
     "props": [
       {
         "p": "payload"
+      },
+      {
+        "p": "versionTime",
+        "v": "14:31",
+        "vt": "str"
       }
     ],
     "repeat": "",
@@ -121,7 +126,7 @@
     "once": true,
     "onceDelay": 0.1,
     "topic": "",
-    "payload": "2024-05-17_b01",
+    "payload": "2025-10-21_b01",
     "payloadType": "str",
     "x": 170,
     "y": 340,
@@ -146,9 +151,16 @@
       },
       {
         "t": "set",
+        "p": "versionTime",
+        "pt": "flow",
+        "to": "versionTime",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
         "p": "versionHistory",
         "pt": "flow",
-        "to": "[{\"version\": \"2024-05-17_b01\", \"date\": \"17 \\u043c\\u0430\\u044f 2024\", \"changes\": [\"\\u0421\\u0435\\u0440\\u0432\\u0435\\u0440\\u043d\\u044b\\u0439 \\u0442\\u0430\\u0439\\u043c\\u0435\\u0440 \\u0441\\u0438\\u043d\\u0445\\u0440\\u043e\\u043d\\u0438\\u0437\\u0438\\u0440\\u0443\\u0435\\u0442 \\u0430\\u043d\\u0430\\u043b\\u043e\\u0433\\u043e\\u0432\\u044b\\u0435 \\u0438 \\u0446\\u0438\\u0444\\u0440\\u043e\\u0432\\u044b\\u0435 \\u0447\\u0430\\u0441\\u044b \\u0431\\u0435\\u0437 \\u0437\\u0430\\u0432\\u0438\\u0441\\u0438\\u043c\\u043e\\u0441\\u0442\\u0438 \\u043e\\u0442 \\u0431\\u0440\\u0430\\u0443\\u0437\\u0435\\u0440\\u0430.\", \"\\u0426\\u0438\\u0444\\u0440\\u043e\\u0432\\u044b\\u0435 \\u0432\\u0438\\u0434\\u0436\\u0435\\u0442\\u044b \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u044f\\u044e\\u0442\\u0441\\u044f \\u0438\\u0437 \\u043e\\u0434\\u043d\\u043e\\u0433\\u043e \\u0438\\u0441\\u0442\\u043e\\u0447\\u043d\\u0438\\u043a\\u0430, \\u0443\\u0441\\u0442\\u0440\\u0430\\u043d\\u044f\\u044f \\u0433\\u043e\\u043d\\u043a\\u0438 \\u043c\\u0435\\u0436\\u0434\\u0443 \\u043a\\u043b\\u0438\\u0435\\u043d\\u0442\\u0430\\u043c\\u0438.\", \"\\u0418\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u0432\\u0435\\u0440\\u0441\\u0438\\u0439 \\u0444\\u043e\\u0440\\u043c\\u0438\\u0440\\u0443\\u0435\\u0442\\u0441\\u044f \\u0438\\u0437 \\u0434\\u0430\\u043d\\u043d\\u044b\\u0445 \\u043f\\u043e\\u0442\\u043e\\u043a\\u0430 \\u0438 \\u0430\\u0432\\u0442\\u043e\\u043c\\u0430\\u0442\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438 \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u044f\\u0435\\u0442\\u0441\\u044f \\u043d\\u0430 \\u043f\\u0430\\u043d\\u0435\\u043b\\u0438.\", \"\\u0424\\u0443\\u043d\\u043a\\u0446\\u0438\\u044f \\u0444\\u043e\\u0440\\u043c\\u0430\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u0438 \\u043f\\u043e\\u043a\\u0430\\u0437\\u044b\\u0432\\u0430\\u0435\\u0442 \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0438 \\u0436\\u0443\\u0440\\u043d\\u0430\\u043b\\u0438\\u0440\\u0443\\u0435\\u0442 \\u043e\\u0448\\u0438\\u0431\\u043a\\u0438 \\u043f\\u0440\\u0438 \\u0441\\u0431\\u043e\\u044f\\u0445.\"]}, {\"version\": \"2024-05-16_b01\", \"date\": \"16 \\u043c\\u0430\\u044f 2024\", \"changes\": [\"\\u0414\\u043e\\u0431\\u0430\\u0432\\u043b\\u0435\\u043d\\u0430 \\u043e\\u0442\\u0434\\u0435\\u043b\\u044c\\u043d\\u0430\\u044f \\u0432\\u043a\\u043b\\u0430\\u0434\\u043a\\u0430 Dashboard \\u0434\\u043b\\u044f \\u043f\\u0440\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u0430 \\u0438\\u0441\\u0442\\u043e\\u0440\\u0438\\u0438 \\u0432\\u0435\\u0440\\u0441\\u0438\\u0439.\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0430 \\u0438\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u0438\\u0437\\u043c\\u0435\\u043d\\u0435\\u043d\\u0438\\u0439 \\u043f\\u0440\\u0435\\u0434\\u044b\\u0434\\u0443\\u0449\\u0438\\u0445 \\u0432\\u044b\\u043f\\u0443\\u0441\\u043a\\u043e\\u0432 \\u043f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0430.\"]}, {\"version\": \"2024-05-15_b02\", \"date\": \"15 \\u043c\\u0430\\u044f 2024\", \"changes\": [\"\\u0420\\u0430\\u0441\\u0448\\u0438\\u0440\\u0435\\u043d \\u0430\\u043d\\u0430\\u043b\\u043e\\u0433\\u043e\\u0432\\u044b\\u0439 \\u0446\\u0438\\u0444\\u0435\\u0440\\u0431\\u043b\\u0430\\u0442: \\u0434\\u043e\\u0431\\u0430\\u0432\\u043b\\u0435\\u043d\\u044b \\u0446\\u0438\\u0444\\u0440\\u044b, \\u043c\\u0438\\u043d\\u0443\\u0442\\u043d\\u044b\\u0439 \\u0438 \\u0441\\u0435\\u043a\\u0443\\u043d\\u0434\\u043d\\u044b\\u0439 \\u0441\\u0443\\u0431\\u0446\\u0438\\u0444\\u0435\\u0440\\u0431\\u043b\\u0430\\u0442\\u044b.\", \"\\u0412 \\u043f\\u0430\\u043d\\u0435\\u043b\\u044c \\u0432\\u044b\\u0432\\u0435\\u0434\\u0435\\u043d\\u044b \\u0446\\u0438\\u0444\\u0440\\u043e\\u0432\\u043e\\u0435 \\u0432\\u0440\\u0435\\u043c\\u044f \\u0438 \\u0434\\u0430\\u0442\\u0430 \\u0441 \\u0434\\u043d\\u0451\\u043c \\u043d\\u0435\\u0434\\u0435\\u043b\\u0438 \\u043d\\u0430 \\u0440\\u0443\\u0441\\u0441\\u043a\\u043e\\u043c \\u044f\\u0437\\u044b\\u043a\\u0435.\"]}, {\"version\": \"2024-05-14_b01\", \"date\": \"14 \\u043c\\u0430\\u044f 2024\", \"changes\": [\"\\u041d\\u0430\\u0447\\u0430\\u043b\\u044c\\u043d\\u0430\\u044f \\u0432\\u0435\\u0440\\u0441\\u0438\\u044f \\u043f\\u0430\\u043d\\u0435\\u043b\\u0438 \\u043c\\u043e\\u043d\\u0438\\u0442\\u043e\\u0440\\u0438\\u043d\\u0433\\u0430 \\u0441 \\u0431\\u0430\\u0437\\u043e\\u0432\\u044b\\u043c \\u043e\\u0442\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c \\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u0438.\"]}]",
+        "to": "[{\"version\": \"2025-10-21_b01\", \"time\": \"14:31\", \"date\": \"21 октября 2025, 14:31\", \"changes\": [\"Актуализирована версия панели и история на текущие дату и время (часы и минуты).\"]}, {\"version\": \"2024-05-17_b01\", \"date\": \"17 мая 2024\", \"changes\": [\"Серверный таймер синхронизирует аналоговые и цифровые часы без зависимости от браузера.\", \"Цифровые виджеты обновляются из одного источника, устраняя гонки между клиентами.\", \"История версий формируется из данных потока и автоматически обновляется на панели.\", \"Функция форматирования времени показывает статус и журналирует ошибки при сбоях.\"]}, {\"version\": \"2024-05-16_b01\", \"date\": \"16 мая 2024\", \"changes\": [\"Добавлена отдельная вкладка Dashboard для просмотра истории версий.\", \"Описана история изменений предыдущих выпусков проекта.\"]}, {\"version\": \"2024-05-15_b02\", \"date\": \"15 мая 2024\", \"changes\": [\"Расширен аналоговый циферблат: добавлены цифры, минутный и секундный субциферблаты.\", \"В панель выведены цифровое время и дата с днём недели на русском языке.\"]}, {\"version\": \"2024-05-14_b01\", \"date\": \"14 мая 2024\", \"changes\": [\"Начальная версия панели мониторинга с базовым отображением времени.\"]}]",
         "tot": "json"
       },
       {
@@ -160,10 +172,24 @@
       },
       {
         "t": "set",
-        "p": "payload",
+        "p": "version",
         "pt": "msg",
         "to": "version",
         "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "versionTime",
+        "pt": "msg",
+        "to": "versionTime",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$flowContext('version') & ($flowContext('versionTime') ? ' ' & $flowContext('versionTime') : '')",
+        "tot": "jsonata"
       }
     ],
     "action": "",
@@ -185,7 +211,7 @@
     "type": "function",
     "z": "f3c6e6f6b9a4d123",
     "name": "Отправить версию",
-    "func": "var version = flow.get('version');\nvar history = flow.get('versionHistory');\nif (!version) {\n    node.status({ fill: 'yellow', shape: 'ring', text: 'версия не задана' });\n    node.warn('Отправить версию: отсутствует значение flow.version');\n    return null;\n}\nmsg.payload = version;\nmsg.history = Array.isArray(history) ? history : [];\nnode.status({ fill: 'green', shape: 'dot', text: version });\nreturn msg;",
+    "func": "var version = flow.get('version');\nvar versionTime = flow.get('versionTime');\nvar history = flow.get('versionHistory');\nif (!version) {\n    node.status({ fill: 'yellow', shape: 'ring', text: 'версия не задана' });\n    node.warn('Отправить версию: отсутствует значение flow.version');\n    return null;\n}\nvar displayVersion = version;\nif (versionTime) {\n    displayVersion = displayVersion + ' ' + versionTime;\n}\nmsg.version = version;\nmsg.versionTime = versionTime || '';\nmsg.payload = displayVersion;\nmsg.history = Array.isArray(history) ? history : [];\nnode.status({ fill: 'green', shape: 'dot', text: displayVersion });\nreturn msg;",
     "outputs": 1,
     "noerr": 0,
     "initialize": "",
@@ -287,7 +313,7 @@
     "order": 1,
     "width": 12,
     "height": 8,
-    "format": "<style>\n.version-history{font-family:\"PT Sans\",sans-serif;padding:4px 12px 16px;}\n.version-history h3{margin:0 0 16px;font-weight:600;}\n.version-entry{margin:0 0 16px;padding:12px 16px;border-left:4px solid #2196f3;background:#f5f5f5;border-radius:4px;box-shadow:inset 0 0 0 1px rgba(0,0,0,0.05);}\n.version-entry:nth-child(3){border-color:#4caf50;}\n.version-entry:nth-child(4){border-color:#9c27b0;}\n.version-title{font-size:16px;font-weight:600;}\n.version-date{color:#555;margin:4px 0 10px;}\n.version-entry ul{margin:0;padding-left:20px;}\n.current-version{margin-bottom:16px;font-weight:600;}\n.version-empty{padding:12px 16px;background:#fafafa;border:1px dashed #b0bec5;border-radius:4px;color:#607d8b;}\n</style>\n<div class=\"version-history\" ng-if=\"msg\">\n  <h3>История версий</h3>\n  <div class=\"current-version\" ng-if=\"msg.payload\">Текущая версия: {{msg.payload}}</div>\n  <div class=\"version-empty\" ng-if=\"!msg.history || !msg.history.length\">История изменений пока отсутствует.</div>\n  <div class=\"version-entry\" ng-repeat=\"entry in msg.history track by entry.version\">\n    <div class=\"version-title\">{{entry.version}}</div>\n    <div class=\"version-date\" ng-if=\"entry.date\">{{entry.date}}</div>\n    <ul>\n      <li ng-repeat=\"change in entry.changes track by $index\">{{change}}</li>\n    </ul>\n  </div>\n</div>",
+    "format": "<style>\n.version-history{font-family:\"PT Sans\",sans-serif;padding:4px 12px 16px;}\n.version-history h3{margin:0 0 16px;font-weight:600;}\n.version-entry{margin:0 0 16px;padding:12px 16px;border-left:4px solid #2196f3;background:#f5f5f5;border-radius:4px;box-shadow:inset 0 0 0 1px rgba(0,0,0,0.05);}\n.version-entry:nth-child(3){border-color:#4caf50;}\n.version-entry:nth-child(4){border-color:#9c27b0;}\n.version-title{font-size:16px;font-weight:600;display:flex;align-items:center;gap:8px;}\n.version-date{color:#555;margin:4px 0 10px;}\n.version-entry ul{margin:0;padding-left:20px;}\n.current-version{margin-bottom:16px;font-weight:600;display:flex;align-items:center;gap:8px;}\n.version-time-badge{display:inline-flex;align-items:center;padding:2px 6px;border-radius:4px;background:#eceff1;color:#37474f;font-size:12px;font-weight:600;}\n.version-empty{padding:12px 16px;background:#fafafa;border:1px dashed #b0bec5;border-radius:4px;color:#607d8b;}\n</style>\n<div class=\"version-history\" ng-if=\"msg\">\n  <h3>История версий</h3>\n  <div class=\"current-version\" ng-if=\"msg.version || msg.payload\">\n    <span>Текущая версия: {{msg.version || msg.payload}}</span>\n    <span class=\"version-time-badge\" ng-if=\"msg.versionTime\">{{msg.versionTime}}</span>\n  </div>\n  <div class=\"version-empty\" ng-if=\"!msg.history || !msg.history.length\">История изменений пока отсутствует.</div>\n  <div class=\"version-entry\" ng-repeat=\"entry in msg.history track by entry.version\">\n    <div class=\"version-title\">\n      <span>{{entry.version}}</span>\n      <span class=\"version-time-badge\" ng-if=\"entry.time\">{{entry.time}}</span>\n    </div>\n    <div class=\"version-date\" ng-if=\"entry.date\">{{entry.date}}</div>\n    <ul>\n      <li ng-repeat=\"change in entry.changes track by $index\">{{change}}</li>\n    </ul>\n  </div>\n</div>",
     "storeOutMessages": false,
     "fwdInMessages": false,
     "resendOnRefresh": true,
